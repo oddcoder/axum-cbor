@@ -1,0 +1,24 @@
+[package]
+name = "axum-cbor"
+version = "0.1.0"
+edition = "2021"
+readme = "Readme.md"
+license = "BSD-3-Clause"
+keywords = ["axum", "cbor"]
+description = "Library for extracting discriminants from enums at zero cost."
+documentation = "https://docs.rs/axum-cbor"
+homepage = "https://docs.rs/axum-cbor"
+repository = "https://github.com/oddcoder/axum-cbor"
+[features]
+axum_test = ["axum-test"]
+
+[dependencies]
+axum = "0.8"
+axum-test = {version = "17.2", optional = true}
+ciborium = "0.2"
+mime = "0.3"
+serde = "1"
+
+[dev-dependencies]
+axum-test = "17.2"
+tokio = "1.43"
