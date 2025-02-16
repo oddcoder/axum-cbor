@@ -1,11 +1,11 @@
 [package]
 name = "axum-cbor"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 readme = "Readme.md"
 license = "BSD-3-Clause"
 keywords = ["axum", "cbor"]
-description = "Library for extracting discriminants from enums at zero cost."
+description = "Library for sending and receiving CBOR data in Axum web applications"
 documentation = "https://docs.rs/axum-cbor"
 homepage = "https://docs.rs/axum-cbor"
 repository = "https://github.com/oddcoder/axum-cbor"
